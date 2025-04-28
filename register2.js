@@ -62,7 +62,7 @@ form.addEventListener('submit', function (event) {
                 // Signed up successfully
                 const user = userCredential.user;
                 alert('Account created successfully');
-                window.location.href = 'index.html';  // Redirect to another page
+                window.location.href = 'main.html';  // Redirect to another page
             })
             .catch((error) => {
                 const errorMessage = error.message;

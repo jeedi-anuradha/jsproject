@@ -35,7 +35,7 @@ submit.addEventListener('click', function (event) {
       // Login success
       const user = userCredential.user;
       alert('Login success');
-      window.location.href = 'index.html';
+      window.location.href = 'main.html';
     })
     .catch((error) => {
       const errorCode = error.code;
